@@ -46,6 +46,20 @@ header span {
   .headline h1 {
     font-size: 1rem;
   }
+  .pen {
+    width: 45%;
+  }
+  .watch {
+    display: none;
+  }
+  .info {
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+  }
+  footer {
+    text-align: center;
+  }
 }
 
 .main-banner {
@@ -153,20 +167,6 @@ nav {
   }
 }
 
-@media only screen and (max-width: 470px) {
-  .pen {
-    width: 45%;
-  }
-  .watch {
-    display: none;
-  }
-  .info {
-    display: flex;
-    padding-left: 2rem;
-    flex-direction: column;
-  }
-}
-
 .info {
   display: flex;
   width: 100%;
@@ -193,10 +193,4 @@ footer {
   display: flex;
   align-items: center;
   width: 100%;
-}
-
-@media only screen and (max-width: 470px) {
-  footer {
-    text-align: center;
-  }
 }
